@@ -22,9 +22,9 @@ function Circle() {
 
     return (
         <div>
-            {isError ? (<h1 className="text-center h-screen text-white">{errorMessage}</h1>) : (<div className='relative w-[910px] h-[910px] justify-center items-center flex rounded-full border-2 border-white animate-circular-rotate'>
-                <div className='relative w-[690px] h-[690px] justify-center items-center flex rounded-full border-2 border-white '>
-                    <div className='relative w-[380px] h-[380px] rounded-full border-2 flex justify-center items-center border-white animate-circular-rotate'>
+            {isError ? (<h1 className="text-center h-screen text-white">{errorMessage}</h1>) : (<div className='relative w-[910px] h-[910px] justify-center items-center flex rounded-full border border-1 border-blue-300 border-dashed  animate-circular-rotate'>
+                <div className='relative w-[690px] h-[690px] justify-center items-center flex rounded-full border border-dashed  border-1 border-blue-300 '>
+                    <div className='relative w-[380px] h-[380px] rounded-full border-dashed border-1 border flex justify-center items-center border-blue-300 animate-circular-rotate'>
                         <div className='absolute w-[150px] h-[150px] flex justify-center items-center rounded-full  bg-radient' >
                             <p className='fixed w-[30%] text-white text-[0.5rem] text-center '>
                                 <span className="text-[0.9rem] font-bold text-blue-900 ">Income Proof</span>
